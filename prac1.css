@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:rgb(230, 223, 223);
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    width:100%;
+    height:500px;
+}
+
+.container .left-side{
+    width:45%;
+    height: auto;
+    padding: 10px;
+}
+
+.container .right-side{
+    width: 70%;
+    height: auto;
+    padding: 10px;
+}
+
+.container .right-side .flow img{
+    width: 235px;
+    height: 235px;
+    border-radius: 5px;
+}
+
+button{
+    width: 235px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(195, 113, 126);
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.container .right-side p{
+    margin-top: 25px;
+    line-height: 1.5;
+}

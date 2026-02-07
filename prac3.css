@@ -1,0 +1,75 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+    }
+    html,body{
+        background-color: lightgrey;
+    }
+    .container{
+        display: flex;
+        width: 800px;
+        height: 500px;
+        margin: 50px 0px 0px 230px;
+    }
+
+    .container .left-side{
+        background-color: white;
+        width: 900px;
+        text-align: center;
+    }
+
+    .container .left-side h1{
+        margin-top: 90px;
+    }
+
+    .container .left-side .input-btn{
+        width: 320px;
+        padding: 15px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(244, 239, 240);
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .container .left-side .btn-sign {
+        width: 320px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: rgb(15, 137, 107);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .container .left-side p{
+        margin-top: 15px;
+    }
+
+    .container .right-side{
+        background-color:rgb(20, 174, 135) ;
+        text-align: center;
+    }
+    
+    .container .right-side h2{
+        margin-top: 150px;
+        color: white;
+    }
+
+    .container .right-side p{
+        color: white;
+        padding: 30px;
+    }
+
+    .container .right-side button{
+        width: 220px;
+        padding: 15px;
+        background-color:rgb(29, 187, 148);
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+    

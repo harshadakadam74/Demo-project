@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flower</title>
+    <link rel="stylesheet" href="prac1.css">
+    <script type="text/javascript">
+        function mno() 
+		{
+			document.getElementById('t1').src="flow1.jpg";
+		}
+		function pqr() 
+		{
+			document.getElementById('t1').src="flow2.jpg";
+		}
+		function stu() 
+		{
+			document.getElementById('t1').src="flow3.jpg";
+		}
+		function rev() 
+		{
+			document.getElementById('t1').src="flow5.jpg";
+		}
+         function Chickme() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-side">
+           <img src="flow5.jpg" alt="" width="500px" height="500px" id="t1">
+        </div>
+        <div class="right-side">
+            <div class="flow">
+                <img src="flow1.jpg" alt="Flower" onmouseover="mno()" onmouseout="rev()" >
+                <img src="flow2.jpg" alt="Flower" onmouseover="pqr()" onmouseout="rev()" >
+                <img src="flow3.jpg" alt="Flower" onmouseover="stu()" onmouseout="rev()" >
+            </div>
+            <div class="chick-btn">
+                <button onclick="Chickme()">Chick Me</button>
+                <button onclick="Chickme()">Chick Me</button>
+                <button onclick="Chickme()">Chick Me</button>
+            </div>
+            <div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
